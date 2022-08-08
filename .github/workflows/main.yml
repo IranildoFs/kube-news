@@ -36,5 +36,5 @@ jobs:
           push: true
           tags: |
             iranildosilva/kube-news:latest
-            iranildosilva/kube-news: ${{github.run_number}}
+            iranildosilva/kube-news: v${{github.run_number}}
             
